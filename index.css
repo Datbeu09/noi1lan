@@ -1,3 +1,55 @@
+body{ 
+   background-image:url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc28d43095579c8b5/5d87c24e8d8a3163705e3070/summonersrift.jpg)
+} */
 h1{
     text-align: center;
+}
+.body1{
+    font-size: 30px;
+    color: black
+}
+#menubar {
+    display: flex;
+    width: 100%;
+    /* float: left */
+}
+
+#main {
+    /* display: flex; */
+    padding: 10px;
+    margin: 0 210px;
+}
+#new{
+    align-items: center; 
+    padding: 10px;
+}
+#top h1, #top p, .menulist {
+    margin: 2%;
+    padding: 2%;
+}
+.menulist{
+    text-align: center;
+}
+.menuitem {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+/* li{
+    text-decoration: none;
+} */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+menuitem:hover {
+    background-color: rgb(25, 0, 255);
+}
+.menuitem {
+    border-radius: 10px;
+    margin: 4px;
 }
