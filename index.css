@@ -2,7 +2,7 @@ body {
     font-family: Helvetica,Helvetica,Arial,sans-serif;
     font-size: 1rem;
     line-height: 20px;
-    color: #000000;
+    color: #c0b521;
     margin: 0;
     padding: 0; 
 }
@@ -88,14 +88,7 @@ footer {
     display: flex;
     gap: 20px;
 }
-#icon
-{
-    display: flex;
-    justify-content:right;
-    gap: 100px;
-    font-size: 50px;
-    margin-right:50px;
-}
+                 
 .ava2{
     width:30%;
 }
@@ -150,3 +143,7 @@ menuitem:hover {
 h1{
     text-align: center;
 }
+
+
+    
+
