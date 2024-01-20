@@ -3,152 +3,426 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/ef5ee47b32.js" crossorigin="anonymous"></script>
+    <title>Đạt Bếu</title>
+    <link rel="icon" href="./assets/web-icon/love_heart_1352.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/externalstyles.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/3ebb8b4a45.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/responsives.css" >
 </head>
 
 <body>
-    <header id="top">
-        <nav>
-            <div class="mainMenu">
-                <li><a href="">Trang chủ</a></li>
-                <li><a href="#item2">Về Tui</a></li>
-                <a href="demo.html"><img src="images/logoM.png" width="100px" alt=""></a>
-                <li><a href="#item3">Sở thích</a></li>
-                <a href=href="demo.html"><img src="images/logoM.png" width="100px" alt=""></a>
-                <li><a href="#item4">Liên Hệ</a></li>
+    <!-- Khởi tạo main -->
+    <div id="main">
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="header">
+            <!-- Khởi tạo các Navigation -->
+            <ul id="navi">
+                <li><a href="#">Home</a></li>
+                <li><a href="#lava-story">About</a></li>
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#memory">Homework</a></li>
+            </ul>
+            <!-- Kết thúc khởi tạo các Navigation -->
+
+            <!-- Khởi tạo thanh tìm kiếm: Search -->
+            <div class="input-container ">
+                <input type="text" name="text" class="input" placeholder="Search something...">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" class="icon">
+                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <rect fill="white" height="24" width="24"></rect>
+                        <path fill=""
+                            d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM9 11.5C9 10.1193 10.1193 9 11.5 9C12.8807 9 14 10.1193 14 11.5C14 12.8807 12.8807 14 11.5 14C10.1193 14 9 12.8807 9 11.5ZM11.5 7C9.01472 7 7 9.01472 7 11.5C7 13.9853 9.01472 16 11.5 16C12.3805 16 13.202 15.7471 13.8957 15.31L15.2929 16.7071C15.6834 17.0976 16.3166 17.0976 16.7071 16.7071C17.0976 16.3166 17.0976 15.6834 16.7071 15.2929L15.31 13.8957C15.7471 13.202 16 12.3805 16 11.5C16 9.01472 13.9853 7 11.5 7Z"
+                            clip-rule="evenodd" fill-rule="evenodd"></path>
+                    </g>
+                </svg>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="banner">
-            <a href=""><img src="img/ảnh.jpg" alt=""></a>
-        </section>
+            <!-- Khởi tạo thanh menu: Menu-Btn (only on Tablet and Mobile) -->
+            <div id="mb-menu" class="mb-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
 
-        <section id="item2" class="">
-            <div class="about">
-                <div class="aboutLeft">
-                    <img class="avatar" src="img/ava.jpg" alt="">
-                    <div class="infomation">
-                        <h3>Đỗ Tiến Đạt</h3>
-                        <p>CNTT-D2022A</p>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Welcome to Dat Beu's website</h2>
+                <div class="text-box">Let's experience it!!!</div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="content">
+            <!-- Khởi tạo mục Lava Story -->
+            <div id="lava-story" class="content-section">
+                <h2 class="content-label">Giới thiệu đôi chút về bản thân</h2>
+                <p class="sub-label">Hello mình là Đạt Bếu</p>
+                <p class="story-body">Tôi là Đỗ Tiến Đạt, 19 tuổi, sinh ngày 16/04/2004 và đang sinh sống tại Hà Nội.
+                    Hiện nay, tôi đang theo học tại trường Đại học thủ đô Hà Nội.
+
+                    Tôi yêu thích đá bóng. Ngoài ra, tôi luôn hứng thú với âm nhạc.
+
+                    Điều mà tôi tin tưởng là có làm thì mới có ăn. Tôi mong muốn
+                    có cơ hội kết nối và học hỏi từ mọi người xung quanh, để cùng nhau chia sẻ và trải nghiệm những điều
+                    mới mẻ.
+
+                    Nếu có bất kỳ câu hỏi hoặc muốn chia sẻ điều gì đó, đừng ngần ngại liên hệ với tôi. Rất mong được
+                    gặp và giao lưu với mọi người!
+
+                    Trân trọng.<br><br>First date 20 Dec 2022 till forever.</p>
+                <div class="row moment-list">
+                    <div class="col col-third text-center s-col-full">
+                        <p class="moment-text">I</p>
+                        <img src="./assets/img/ava.jpg" alt="Moment" class="moment-pic">
+                    </div>
+                    <div class="col col-third text-center s-col-full">
+                        <p class="moment-text">Lava</p>
+                        <img src="./assets/img/ny.jpg" alt="Moment" class="moment-pic">
+                    </div>
+                    <div class="col col-third text-center s-col-full">
+                        <p class="moment-text">You</p>
+                        <img src="./assets/img/ny2.jpg" alt="Moment" class="moment-pic">
                     </div>
                 </div>
-                <div class="aboutRight">
-                    <h1>Xin chào!</h1>
-                    <p class="textRight">
-                        Mình là Đạt.Đây là trang web đầu đời của mình hihi.Mình ở Hà Nội và hiện tại mình đang học ở
-                        trường Đại học Thủ đô Hà Nội và ngành mình đang theo học là Công nghệ thông tin.<br>
+            </div>
 
-                        <br>Trong ngày thường, mình đang học ở Đại học thủ đô Hà Nội, nơi mình có cơ hội học hỏi và
-                        phát triển kỹ năng của mình. Mình tin rằng sự học hỏi là một hành trình liên tục, và mỗi ngày là
-                        một cơ hội để mình trở nên tốt hơn.<br>
+            <!-- add img router -->
+            <!-- <div class="nen-99">
+                <div class="text-sc">
+                    <h1>Một chút ảnh </h1>
+                </div>
+                <div class="img-js">
+                    <div onload="load_images();">
+                        <div class="chua">
+                            <img src="./assets/img/b1.jpg" alt="b1" id="b">
+                            <div class="ct">
+                                <div id="back" onclick="back();">&#10094;</div>
+                                <div id="next" onclick="next();">&#10095;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var img = [];
+                        var curimg = 0;
 
+                        function load_images() {
+                            for (var i = 1; i < 3; i++) {
+                                img[i] = new Image();
+                                img[i].src = "./assets/img/b" + i + ".jpg";
+                            }
+                        }
 
-                    </p>
-        </section>
-        <!-- <section id="item" class="">
-            <div class="about">
-                <div class="aboutLeft">
-                    <img class="avatar" src="img/sothich.jpg" alt="">
-                    <div class="infomation">
-                        <h3>Đỗ Tiến Đạt</h3>
-                        <p>CNTT-D2022A</p>
+                        function next() {
+                            if (curimg < img.length - 1) {
+                                curimg++;
+                                document.getElementById("b").src = img[curimg].src;
+                            } else {
+                                curimg = 0;
+                                document.getElementById("b").src = img[curimg].src;
+                            }
+                        }
+
+                        function back() {
+                            if (curimg > 0) {
+                                curimg--;
+                                document.getElementById("b").src = img[curimg].src;
+                            } else {
+                                curimg = img.length - 1;
+                                document.getElementById("b").src = img[curimg].src;
+                            }
+                        }
+
+                        // Load images when the window is fully loaded
+                        window.onload = load_images;
+                    </script>
+                </div>
+            </div> -->
+            <!-- Khởi tạo mục Travel -->
+            <div id="travel" class="travel-box">
+                <div class="content-section">
+                    <h2 class="text-white content-label">TRAVEL</h2>
+                    <p class="text-white sub-label">"Work, save, travel, repeat."</p>
+
+                    <!-- Khởi tạo location-list -->
+                    <div class="row location-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/danang.jpg" alt="Da Nang" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Da Nang</h3>
+                                <p class="location-time">4 Days & 3 Nights</p>
+                                <p class="location-desc">"The first time I returned to my hometown".
+                                </p>
+                                <button class="location-button s-full-width js-give-review">Give a review</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/hue.jpg" alt="Hue" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Hue</h3>
+                                <p class="location-time">3 Days & 2 Nights</p>
+                                <p class="location-desc">"With age, comes wisdom. With travel, comes understanding".</p>
+                                <button class="location-button s-full-width js-give-review">Give a review</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/location/comingsoon4.jpg" alt="Coming soon" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Loading...</h3>
+                                <p class="location-time">#</p>
+                                <p class="location-desc">#<br>#</p>
+                                <button class="location-button s-full-width js-later">Later</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="aboutRight">
-                    <h1>Xin chào!</h1>
-                    <p class="textRight">
-                        Mình là Đạt.Đây là trang web đầu đời của mình hihi.Mình ở Hà Nội và hiện tại mình đang học ở
-                        trường Đại học Thủ đô Hà Nội và ngành mình đang theo học là Công nghệ thông tin.<br>
-
-                        <br>Trong ngày thường, mình đang học ở Đại học thủ đô Hà Nội, nơi mình có cơ hội học hỏi và
-                        phát triển kỹ năng của mình. Mình tin rằng sự học hỏi là một hành trình liên tục, và mỗi ngày là
-                        một cơ hội để mình trở nên tốt hơn.<br>
+            </div>
 
 
-                    </p>
+            <!-- Khởi tạo mục Memories -->
+            <div id="memory" class="memory-area">
+                <div class="wider content-section">
+                    <h2 class="content-label text-black">HOMEWORK</h2>
+                    <p class="sub-label">Những bài tập đầu tiên về web</p>
+                    <div class="row memory-list">
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 1</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="./buổi 1/bai1.html">bài 1 </a></li>
+                                <li class="menuitem"><a href="./buổi 1/baitap2.html">bài 2,1 </a></li>
+                                <li class="menuitem"><a href="./buổi 1/2,2.html">bài 2,2</a></li>
+                                <li class="menuitem"><a href="./buổi 1/2,3.html">bài 2,3 </a></li>
+                                <li class="menuitem"><a href="./buổi 1/3.html">bài 3 </a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 2</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="./buổi 2/bt1/testlab1internal.html">bài 1 </a></li>
+                                <li class="menuitem"><a href="./buổi 2/bài 2/Bai2.1.html">bài 2,1 </a></li>
+                                <li class="menuitem"><a href="./buổi 2/bài 2/Bai2.2.html">bài 2,2 </a></li>
+                                <li class="menuitem"><a href="./buổi 2/bài 3/B3.html">bài 3 </a></li>
+                                <li class="menuitem"><a href="./buổi 2/bài 4/bai4.html">bài 4 </a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 3</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="./buổi 3/bàilop/baitaptrenlop.html">bài lớp</a></li>
+                                <li class="menuitem"><a href="./buổi 3/bài1/bai1lab3.html">bài 1 </a></li>
+                                <li class="menuitem"><a href="./buổi 3/bài2/bail2ab3.html">bài 2</a></li>
+                                <li class="menuitem"><a href="">web</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Bài 30%</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="30/index.html">bài 30% </a></li>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 4</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="/buổi 4/bai1/bai1.html">bài1</a></li>
+                                <li class="menuitem"><a href="buổi 4/bai1/bai3/bai3.html">bài 3 </a></li>
+                                <li class="menuitem"><a href="/buổi 4/bai1/bai4/bai4.htm">bài 4</a></li>
+                                <li class="menuitem"><a href="/buổi 4/bai1/bai5/bai5.html">bài 5</a></li>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 5</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="/buổi 5/bailop/bailop1.html">bài 1</a></li>
+                                <li class="menuitem"><a href="/buổi 5/bailop/bailop1/bailop1.html">bài1,5</a></li>
+                                <li class="menuitem"><a href="/buổi 5/bailop/bailop.html">bài 2</a></li>
+                                <li class="menuitem"><a href="/buổi 5/bailop/bailop1/bai3lop.html">bài 3</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-fourth-1 text-center">
+                            <h3>Buổi 6</h3>
+                            <ul class="menulist">
+                                <li class="menuitem"><a href="./buổi 6/baitrenlop/onclick.html">bài trên lớp</a></li>
+                                <li class="menuitem"><a href="./buổi 6/bài4/bai4.html">bài 4</a></li>
+                                <li class="menuitem"><a href="./buổi 6/bài5/bai5.html">bài 5</a></li>
+                                <li class="menuitem"><a href="./buổi 6/bài6/bai6,1.html">bài 6.1</a></li>
+                                <li class="menuitem"><a href="./buổi 6/bài6/bai6,2.html">bài 6.2</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
 
-            
 
+                </div>
+            </div>
         </div>
-         <section>  -->
-            <h1>HOME WORK</h1>
-            <div class="wrapper">
-                <div id="menubar">
-                  <ul class="menulist">
-                   <h3>Buổi 1</h3>
-                    <li class="menuitem"><a href="./buổi 1/bai1.html">bài 1 </a></li> 
-                    <li class="menuitem"><a href="./buổi 1/baitap2.html">bài 2,1 </a></li>
-                    <li class="menuitem"><a href="./buổi 1/2,2.html">bài 2,2</a></li>
-                    <li class="menuitem"><a href="./buổi 1/2,3.html">bài 2,3 </a></li>
-                    <li class="menuitem"><a href="./buổi 1/3.html">bài 3 </a></li>
-                  </ul>
-                  <ul class="menulist">
-                   <h3>Buổi 2</h3>
-                   <li class="menuitem"><a href="./buổi 2/bt1/testlab1internal.html">bài 1 </a></li> 
-                   <li class="menuitem"><a href="./buổi 2/bài 2/Bai2.1.html">bài 2,1 </a></li>
-                   <li class="menuitem"><a href="./buổi 2/bài 2/Bai2.2.html">bài 2,2 </a></li>
-                   <li class="menuitem"><a href="./buổi 2/bài 3/B3.html">bài 3 </a></li>
-                   <li class="menuitem"><a href="./buổi 2/bài 4/bai4.html">bài 4 </a></li>
-                  </ul>
-                  <ul class="menulist">
-                   <h3>Buổi 3</h3>
-                   <li class="menuitem"><a href="./buổi 3/bàilop/baitaptrenlop.html">bài lớp</a></li> 
-                   <li class="menuitem"><a href="./buổi 3/bài1/bai1lab3.html">bài 1 </a></li>
-                   <li class="menuitem"><a href="./buổi 3/bài2/bail2ab3.html">bài 2</a></li>
-                   <li class="menuitem"><a href="">web</a></li>
-                  </ul>
 
-                   <ul class="menulist"> 
-                   <h3>Bài 30%</h3>
-                   <li class="menuitem"><a href="30/index.html">bài 30% </a></li> 
-            
-                  </ul>
-                  <ul class="menulist">
-                    <h3>Buổi 4</h3>
-                   <li class="menuitem"><a href="./buổi 4/bai1/bai1.html">bài1</a></li> 
-                   <li class="menuitem"><a href="./buổi 4/bai1/bai3/bai3.html">bài 3 </a></li>
-                   <li class="menuitem"><a href="./buổi 3/bài2/bail2ab3.html">bài 2</a></li>
-                   <li class="menuitem"><a href="">web</a></li>
-                   </ul>
-                   <ul class="menulist">
-                    <h3>Buổi 5</h3>
-                   <li class="menuitem"><a href="/buổi 4/bai1/bai1.html">bài1</a></li> 
-                   <li class="menuitem"><a href="buổi 4/bai1/bai3/bai3.html">bài 3 </a></li>
-                   <li class="menuitem"><a href="/buổi 4/bai1/bai4/bai4.htm">bài 4</a></li>
-                   <li class="menuitem"><a href="/buổi 4/bai1/bai5/bai5.html">bài 5</a></li>
-                  </ul>
-                  <ul class="menulist">
-                    <h3>Buổi 6</h3>
-                   <li class="menuitem"><a href="/buổi 5/bailop/bailop1.html">bài 1</a></li> 
-                   <li class="menuitem"><a href="/buổi 5/bailop/bailop1/bailop1.html">bài1,5</a></li>
-                   <li class="menuitem"><a href="/buổi 5/bailop/bailop.html">bài 2</a></li>
-                   <li class="menuitem"><a href="/buổi 5/bailop/bailop1/bai3lop.html">bài 3</a></li>
-                  </ul>
-                 </div>
-               </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
 
-        </section>
-        
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <!-- Khởi tạo mục Contact -->
+        <div id="contact" class="content-sectionn">
+            <h2 class="content-labell">CONTACT</h2>
+            <p class="sub-labell">Liên hệ tui </p>
 
-        
-
-
-    </main>
-    <footer>
-        <div class="end">
-
+            <div class="row box-info-area">
+                <div class="col col-half contact-info s-col-full">
+                    <p><i class="fa-solid fa-location-dot"></i></i>Ha Noi, VN</p>
+                    <p><i class="fa-solid fa-phone"></i>Phone: <a href="tel:+84 37 660 2009">+83 37 660 2009</a></p>
+                    <!-- <p><i class="ti-email"></i>Email: <a href="mailto:lavacommunity@gmail.com">lavacommunity@gmail.com</a></p> -->
+                </div>
+                <div class="col col-half contact-form s-col-full">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half s-col-full">
+                                <input type="text" name="" placeholder="Name" required id="contact-name" class="form-control">
+                            </div>
+                            <div class="col col-half s-col-full s-mt-8">
+                                <input type="email" name="" placeholder="Mail" required id="contact-email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" name="" placeholder="Message" required id="contact-message" class="form-control">
+                            </div>
+                        </div>
+                        <input class="form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+            <div class="icon2">
+                <a class="social-list" href="https://web.facebook.com/datdizz/?locale=vi_VN"><i
+                        class="fab fa-facebook"></i></a>
+                <a class="social-list" href="https://www.instagram.com/dat.di/"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="social-list" href="https://mail.google.com/mail/u/0/#inbox"><i
+                        class="fas fa-envelope"></i></a>
+                <a class="social-list" href="tel:+84 37 660 2009">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
         </div>
-        <div id="icon">
-            <a href="https://www.facebook.com/datdizz" class="fa-brands fa-facebook"></a>
-            <a href="https://www.instagram.com/dat.di/" class="fa-brands fa-instagram"></a>
-            <a href="https://www.youtube.com/" class="fa-brands fa-youtube"></a>
-            <a href="" class="fa-brands fa-twitter"></a>
+    </div>
+</div>
+</div>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Khởi tạo modal -->
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <!-- <i class="modal-icon1 ti-close"></i> -->
+                <i class="fa-solid fa-x"></i>
+            </div>
+
+            <div class="modal-header">
+                <!-- <i class="modal-icon2 ti-bell"></i> -->
+                <i class="fa-solid fa-bell"></i>
+                Review Box
+            </div>
+
+            <div class="modal-body">
+                <label for="modal-time" class="modal-label">
+                    <i class="ti-calendar"></i>
+                    When did you take that trip? How long?
+                </label>
+                <input id="modal-time" type="text" class="modal-input1" placeholder="#Date - Days/Nights">
+
+                <label for="text-review" class="modal-label">
+                    <i class="ti-thought"></i>
+                    How was it? - Give us a review
+                </label>
+                <textarea name="review-box" id="text-review"
+                    placeholder="#Review is always a wonderful surprise"></textarea>
+
+                <button id="post">
+                    Post
+                    <!-- <i class="ti-thumb-up"></i> -->
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a> </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Khởi tạo tác vụ mở/đóng menu header for Tablet and Mobile -->
+    <script>
+        var header = document.getElementById('header')
+        var mobileMenu = document.getElementById('mb-menu')
+        var headerHeight = header.clientHeight;
+
+        // Tương tác đóng mở Menu
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn Menu xong
+        var menuItems = document.querySelectorAll('#navi li a[href*="#"]')
+
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var menu2Level = this.nextElementSibling && this.nextElementSibling.classList.contains('subnavi');
+                if (menu2Level) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+    <!-- Khởi tạo tác vụ mở/đóng modal -->
+    <script>
+        const reviewBtns = document.querySelectorAll('.js-give-review')
+        const laterBox = document.querySelector('.js-later')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showGiveReview() {
+            modal.classList.add('open')
+        }
+        function hideGiveReview() {
+            modal.classList.remove('open')
+        }
+
+        for (const reviewBtn of reviewBtns) {
+            reviewBtn.addEventListener('click', showGiveReview)
+        }
+
+        modalClose.addEventListener('click', hideGiveReview)
+
+        modal.addEventListener('click', hideGiveReview)
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+        laterBox.addEventListener('click', function () { alert("Thank for your visit ! We will add more interesting trips in the future") })
+    </script>
+
 </body>
 
 </html>

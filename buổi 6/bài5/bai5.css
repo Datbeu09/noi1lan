@@ -1,0 +1,19 @@
+.chua{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 500px;
+}
+.chua img{
+    width: 90%;
+}
+#next, #back{
+    margin-top: -180px;
+    position: fixed;
+    /* bottom: 50%; */
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.chua #next{
+    left: 28%;
+}

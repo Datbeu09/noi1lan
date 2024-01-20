@@ -1,0 +1,73 @@
+
+@keyframes modalFadeIn {
+
+    /*Animation chuyển modal vào khi click*/
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menulist {
+        display: flex;
+    }
+
+    .col-fourth-1 {
+        display: flex;
+        flex-direction: row;
+        min-width: 500px;
+        margin: 0 auto;
+    }
+
+    .col-fourth-1 h3 {
+        align-self: center;
+    }
+
+    .memory-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menulist {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menuitem {
+        flex: 0 0 33.33%
+    }
+
+    .col-fourth-1 {
+        max-width: 420px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .col-fourth-1 {
+        max-width: 360px;
+    }
+
+    .menulist {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menuitem {
+        flex: 0 0 50%
+    }
+
+}
+
+/* @media only screen and (max-width: 450px) { */
+    .ct {
+        font-size: 18px;
+    }
