@@ -181,13 +181,16 @@ html {
     line-height: 42px;
     text-transform: uppercase;
 }
-
-#navi .kitties-icon {
+    #navi .kitties-icon {
     /*Định dạng font thẻ kitties-icon*/
     font-size: 14px;
 }
 
-#header .mb-menu-btn,
+#header .mb-menu-btn{
+    padding: 0 24px;
+    max-width: 10px;
+    margin: 15px;
+}
 #header .search-button {
     /*Khởi tạo thanh tìm kiếm*/
     float: right;
@@ -209,7 +212,6 @@ html {
     cursor: pointer;
 }
 
-#header .mb-menu-btn:hover,
 #header .mb-menu-btn:hover .menu-icon {
     background-color: #fff;
     color: rgb(0, 0, 0);
@@ -270,9 +272,9 @@ html {
 
 
 /* -------------------------------------------------------------------------------------------------------- */
-.icon{
+
     
-}
+
 #content .content-section {
     /*Định dạng thẻ content-section*/
     width: 800px;
@@ -741,7 +743,7 @@ a {
     top: 8px
 }
 
-.input {
+/* .input {
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -751,7 +753,7 @@ a {
     background-color: transparent;
     cursor: pointer;
     transition: all .5s ease-in-out;
-}
+} */
 
 .input::placeholder {
     color: transparent;
@@ -864,6 +866,31 @@ a {
     line-height: 1.6;
     color: rgb(145, 72, 84);
 }
-.icon2{
+#footer {                           /*Định dạng thẻ footer*/
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .social-list {              /*Định dạng thẻ social-list*/
+    font-size: 24px;
+}
+
+#footer .social-list a {             /*Định dạng thẻ a trong thẻ social-list*/
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .copyright {                /*Định dạng thẻ copyright*/
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a {                 /*Định dạng thẻ a trong thẻ copyright*/
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a:hover,                /*Định dạng hover thẻ a trong copyright và thẻ a trong social-list*/
+#footer .social-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    
 }
