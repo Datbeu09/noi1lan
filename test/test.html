@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐTĐ Website</title>
+    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" href="./test1.css">
+    <link rel="stylesheet" href="./test2.css">
+    <script src="https://kit.fontawesome.com/3ebb8b4a45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Khởi tạo main -->
+    <div id="main">
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="header">
+            <!-- Khởi tạo các Navigation -->
+            <ul id="navi">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Kết thúc khởi tạo các Navigation -->
+
+            <!-- Khởi tạo thanh tìm kiếm: Search -->
+            <div class="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- Khởi tạo thanh menu: Menu-Btn (only on Tablet and Mobile) -->
+            <div id="mb-menu" class="mb-menu-btn">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Welcome to Dat website</h2>
+                <div class="text-box">Let's experience it!!!</div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <div id="content">
+            <!-- Khởi tạo mục Lava Story -->
+            <div id="about" class="content-section">
+                <h2 class="content-label">Một chút về bản thân</h2>
+                <p class="sub-label">Hello, my name is Dat</p>
+                <p class="story-body"><br>Tôi, Đỗ Tiến Đạt, 20 tuổi, sinh ngày 16 tháng 4 năm 2004, tự hào là người con của
+                    thành phố Hà Nội, nơi mà tôi đã trải qua những năm tháng tuổi thơ và hiện đang trưởng thành. Tôi là
+                    sinh viên năm 2 tại Trường Đại học Thủ đô Hà Nội, chuyên ngành Công nghệ Thông tin. Hành trình học
+                    tập của tôi không chỉ là sự chăm chỉ, mà còn là hành trình khám phá vô số khả năng trong lĩnh vực
+                    này.</br> 
+                    <br> 
+                    Trong suốt thời gian học tập, tôi đã có cơ hội nắm bắt kiến thức về đồ họa ứng dụng và ngôn ngữ lập
+                    trình C, những cơ sở vững chắc giúp tôi hiểu rõ hơn về cấu trúc và logic của các chương trình. Hiện
+                    tại, tôi đang chuyển đổi sự tập trung của mình vào lĩnh vực thiết kế web, nơi tôi đang khám phá và
+                    áp dụng những kỹ thuật HTML, CSS, và JavaScript để tạo ra những trang web sáng tạo và thân thiện với
+                    người dùng.</br>
+                    <br>
+                    Ngoài việc học tập, tôi còn đam mê tham gia các dự án thực tế và thử nghiệm kiến thức của mình trong
+                    môi trường thực tế. Tôi tin rằng việc áp dụng kiến thức vào thực tế không chỉ giúp tôi nắm bắt sâu
+                    sắc hơn, mà còn phát triển kỹ năng làm việc nhóm và giải quyết vấn đề. </br></p>
+                    
+                    <div class="row moment-list">
+                        <div class="col col-third text-center s-col-full">
+                            <p class="moment-text">It's Me</p>
+                            <img src="./assets/img/ava.jpg" alt="Moment" class="moment-pic">
+                        </div>
+                        <div class="skills padd-15">
+                            <div class="row">
+                              <!-- skill item-->
+                              <div class="skill-item">
+                                <h4><i class="fa-solid fa-c"></i> C++</h4>
+                                <div class="progress">
+                                  <div
+                                    class="progress-in"
+                                    style="width: 20%; background-color: rgb(0, 0, 0)"
+                                  ></div>
+                                  <div class="skill-percent">20%</div>
+                                </div>
+                              </div>
+                              <!-- skill item-->
+                              <div class="skill-item">
+                                <h4><i class="fa-brands fa-js"></i> Javascript</h4>
+                                <div class="progress">
+                                  <div
+                                    class="progress-in"
+                                    style="width: 15%; background-color: rgb(10, 10, 10)"
+                                  ></div>
+                                  <div class="skill-percent">15%</div>
+                                </div>
+                              </div>
+                              <!-- skill item-->
+                              <div class="skill-item">
+                                <h4><i class="fa-brands fa-css3-alt"></i> HTML&CSS</h4>
+                                <div class="progress">
+                                  <div
+                                    class="progress-in"
+                                    style="width: 50%; background-color: rgb(0, 0, 0)"
+                                  ></div>
+                                  <div class="skill-percent">50%</div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+
+            <!-- Khởi tạo mục Services -->
+            <div id="services" class="services-box">
+                <div class="content-section">
+                    <h2 class="text-white content-label">Services</h2>
+                    <p class="text-white sub-label">"Work, save, travel, repeat."</p>
+
+                    <!-- Khởi tạo place-list -->
+                    <ul class="place-list">
+                        <li>Hai Phong - Oct 2020: <span class="check">Checked</span></li>
+                        <li>Sapa - Dec 2020: <span class="check">Checked</span></li>
+                        <li>Coming soon... <span class="soon">?</span></li>
+                    </ul>
+
+                    <!-- Khởi tạo location-list -->
+                    <div class="row location-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/location/haiphong1.jpg" alt="Hai Phong" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Hai Phong</h3>
+                                <p class="location-time">2 Days & 1 Nights</p>
+                                <p class="location-desc">"We travel not to escape life, but for life not to escape us".
+                                </p>
+                                <button class="location-button s-full-width js-give-review">Give a review</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/location/sapa1.jpg" alt="Sapa" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Sapa</h3>
+                                <p class="location-time">3 Days & 2 Nights</p>
+                                <p class="location-desc">"With age, comes wisdom. With travel, comes understanding".</p>
+                                <button class="location-button s-full-width js-give-review">Give a review</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/location/comingsoon4.jpg" alt="Coming soon" class="location-img">
+                            <div class="location-body">
+                                <h3 class="location-heading">Loading...</h3>
+                                <p class="location-time">#</p>
+                                <p class="location-desc">#<br>#</p>
+                                <button class="location-button s-full-width js-later">Later</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Khởi tạo mục Portfolio -->
+            <div id="memory" class="portfolio-area">
+                <h2 class="content-label text-black">MEMORIES</h2>
+                    <p class="sub-label">Which are impossible to reproduce</p>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 1:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi1/bai1.html">Bài 1</a>
+                                    <a href="./buoi1/bai2.1.html">Bài 2.1</a>
+                                    <a href="./buoi1/bai2.2.html">Bài 2.2</a>
+                                    <a href="./buoi1/bai2.3.html">Bài 2.3</a>
+                                    <a href="./buoi1/bai3.html">Bài 3</a>
+                                    <a href="./buoi1/bai4.html">Bài 4</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 2:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi2/2.bai1.html">Bài 1</a>
+                                <a href="./buoi2/2.Bai2.1.html">Bài 2.1</a>
+                                <a href="./buoi2/2.bai2.2.html">Bài 2.2</a>
+                                <a href="./buoi2/2.bai3.html">Bài 3</a>
+                                <a href="./buoi2/2.bai4.html">Bài 4</a> 
+                                <a href="./buoi1/bai4.html">Bài 4</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 3:</h2>
+                                <div class="dropdown-content">
+                                <a href="./buoi3/3.bai1.html">Bài 1</a>
+                                <a href="./buoi3/3.bai2.html">Bài 2</a>
+                                <!-- <a href="./baiktra30/bai30.html">Bài 2</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 4:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi4/4bai1.html">Bài 1</a>
+                                    <a href="./buoi4/4bai3.html">Bài 3</a>
+                                    <a href="./buoi4/4.bai4.html">Bài 4</a>
+                                    <a href="./buoi4/4bai5.html">Bài 5</a>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 5:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi5/js.html">Bài 1</a>
+                                    <a href="./buoi5/js2.html">Bài 2</a>
+                                    <a href="./buoi5/js3.html">Bài 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 6:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi6/bai4.html">Bài 4</a>
+                                    <a href="./buoi6/bai5.html">Bài 5</a>
+                                    <a href="./buoi6/bai6.1.html">Bài 6.1</a>
+                                    <a href="./buoi6/bai6.2.html">Bài 6.2</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="blog-item">
+                        <div class=" dropdown item">
+                            <img src="./test/bopcho.png" alt="Image 1">
+                            <div class=" overlay">
+                                <h2>Buổi 7:</h2>
+                                <div class="dropdown-content">
+                                    <a href="./buoi7/vdu1.html">Ví du 1</a>
+                                    <a href="./buoi7/vdu2.html">Ví dụ 2</a>
+                                    <a href="./buoi7/bai7.html">Bài 7</a>
+                                    <a href="./buoi6/bai6.2.html">Bài 8</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="wider content-section">
+                    <h2 class="content-label text-black">MEMORIES</h2>
+                    <p class="sub-label">Which are impossible to reproduce</p>
+                    <div class="row portfolio-list">
+                        <div class="col col-fourth-1 text-center">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#05/12/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-2 text-center">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#05/12/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-1 text-center mt-65">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#10/05/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-2 text-center">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#06/12/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row portfolio-list">
+                        <div class="col col-fourth-1 text-center mt-65">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#17/11/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-2 text-center">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#05/12/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-1 text-center mt-16">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#05/12/2020</p>
+                            </div>
+                        </div>
+                        <div class="col col-fourth-2 text-center">
+                            <div class="portfolio-img">
+                                <img src="./assets/img/ny.jpg" alt="" class="portfolio-pic">
+                            </div>
+                            <div class="portfolio-body">
+                                <p class="portfolio-text">#14/02/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        <!-- Khởi tạo mục Contact -->
+        <div id="contact" class="content-sectionn">
+            <h2 class="content-labell">CONTACT</h2>
+            <p class="sub-labell">CALL FOR ME </p>
+    
+            <div class="row box-info-area">
+                <div class="col col-half contact-info s-col-full">
+                    <p><i class="contact-icon fa-solid fa-location-dot"></i></i>Ha Noi, VN</p>
+                    <p><i class="contact-icon fa-solid fa-phone"></i>Phone: <a href="tel:+84 37 660 2009">+83 37 660 2009</a></p>
+                    <p><i class="contact-icon fa-solid fa-envelope"></i>Email: <a href="mailto:deaft09@gmail.com">deaftt09@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col col-half contact-form s-col-full">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half s-col-full">
+                                <input type="text" name="" placeholder="Name" required id="contact-name"
+                                    class="form-control">
+                            </div>
+                            <div class="col col-half s-col-full s-mt-8">
+                                <input type="email" name="" placeholder="Mail" required id="contact-email"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" name="" placeholder="Message" required id="contact-message"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <input class="form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div id="footer">
+            <div class="social-list">
+                <a href="https://www.facebook.com/datdizz/"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="https://www.instagram.com/dat.di/"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="https://twitter.com/datto09"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://github.com/Datbeu09/noi1lan"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+            <p class="copyright mt-16">Powered by <a href="https://github.com/Datbeu09">Datbeu09</a></p>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+        </div>
+    
+        <!-- ---------------------------------------------------------------------------------------------------------- -->
+    </div>
+
+    <!-- Khởi tạo modal -->
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="modal-icon1 ti-close"></i>
+            </div>
+
+            <div class="modal-header">
+                <i class="modal-icon2 ti-bell"></i>
+                Review Box
+            </div>
+
+            <div class="modal-body">
+                <label for="modal-time" class="modal-label">
+                    <i class="ti-calendar"></i>
+                    When did you take that trip? How long?
+                </label>
+                <input id="modal-time" type="text" class="modal-input1" placeholder="#Date - Days/Nights">
+
+                <label for="text-review" class="modal-label">
+                    <i class="ti-thought"></i>
+                    How was it? - Give us a review
+                </label>
+                <textarea name="review-box" id="text-review"
+                    placeholder="#Review is always a wonderful surprise"></textarea>
+
+                <button id="post">
+                    Post <i class="ti-thumb-up"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a> </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Khởi tạo tác vụ mở/đóng menu header for Tablet and Mobile -->
+    <script>
+        var header = document.getElementById('header')
+        var mobileMenu = document.getElementById('mb-menu')
+        var headerHeight = header.clientHeight;
+
+        // Tương tác đóng mở Menu
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn Menu xong
+        var menuItems = document.querySelectorAll('#navi li a[href*="#"]')
+
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var menu2Level = this.nextElementSibling && this.nextElementSibling.classList.contains('subnavi');
+                if (menu2Level) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+    <!-- Khởi tạo tác vụ mở/đóng modal -->
+    <script>
+        const reviewBtns = document.querySelectorAll('.js-give-review')
+        const laterBox = document.querySelector('.js-later')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showGiveReview() {
+            modal.classList.add('open')
+        }
+        function hideGiveReview() {
+            modal.classList.remove('open')
+        }
+
+        for (const reviewBtn of reviewBtns) {
+            reviewBtn.addEventListener('click', showGiveReview)
+        }
+
+        modalClose.addEventListener('click', hideGiveReview)
+
+        modal.addEventListener('click', hideGiveReview)
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+        laterBox.addEventListener('click', function () { alert("Thank for your visit ! We will add more interesting trips in the future") })
+    </script>
+
+</body>
+
+</html>
