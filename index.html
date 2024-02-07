@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/3ebb8b4a45.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="mainBody">
     <!-- Khởi tạo main -->
     <div id="main">
         <!-- ---------------------------------------------------------------------------------------------------------- -->
@@ -393,24 +393,24 @@
 
             <div class="modal-body">
                 <label for="modal-time" class="modal-label">
-                    <i class="ti-calendar"></i>
+                    <i class="fa-solid fa-check"></i>
                     Do you have any comments?
                 </label>
                 <input id="modal-time" type="text" class="modal-input1" placeholder="">
 
                 <label for="text-review" class="modal-label">
-                    <i class="ti-thought"></i>
+                    <i class="fa-solid fa-check"></i>
                     Can you leave a message so I can fix it?
                 </label>
                 <textarea name="review-box" id="text-review" placeholder=""></textarea>
 
                 <button id="post">
-                    Post <i class="ti-thumb-up"></i>
+                    <i class="fa-solid fa-thumbs-up"> Post</i>
                 </button>
             </div>
 
             <div class="modal-footer">
-                <p class="modal-help">Need <a href="">help?</a> </p>
+                <p class="modal-help">Need <a href="https://support.google.com/messages/answer/6080324?hl=vi">help?</a> </p>
             </div>
         </div>
     </div>
@@ -474,7 +474,7 @@
         modalContainer.addEventListener('click', function (event) {
             event.stopPropagation()
         })
-        laterBox.addEventListener('click', function () { alert("Thank for your visit ! We will add more interesting trips in the future") })
+        // laterBox.addEventListener('click', function () { alert("Thank for your visit ! We will add more interesting trips in the future") })
     </script>
     <script>
         let slideIndex = 0;
@@ -493,6 +493,25 @@
             setTimeout(showSlides, 5000); // Đổi hình sau mỗi 3 giây
         }
     </script>
+    <script>
+        // Lấy phần tử HTML bạn muốn thêm xử lý sự kiện cuộn chuột (trong trường hợp này, là body)
+        var bodyElement = document.getElementById("mainBody");
+
+        // Thêm sự kiện "scroll" và gọi hàm xử lý khi cuộn chuột
+        bodyElement.addEventListener("scroll", handleScroll);
+
+        // Hàm xử lý sự kiện cuộn chuột
+        function handleScroll(event) {
+            // Thực hiện các hành động bạn muốn khi cuộn chuột
+            console.log("Đã cuộn chuột");
+            // Ví dụ: Kiểm tra vị trí cuộn và thực hiện các hành động phụ thuộc vào nó
+            console.log("Vị trí cuộn: " + bodyElement.scrollTop);
+            // Thêm mã xử lý sự kiện cuộn chuột của bạn tại đây
+        }
+
+
+    </script>
+
 
 </body>
 

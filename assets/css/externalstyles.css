@@ -279,7 +279,7 @@ row .col-third {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/slider/team.jpg') top center / cover no-repeat;
+    background: url(../img/slider/team.jpg) top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -294,7 +294,7 @@ row .col-third {
 #slider .text-box:hover,
 /*Định dạng hover thẻ text-box*/
 #slider .text-heading:hover {
-    color: rgb(134, 172, 254);
+    color: rgb(255, 247, 159);
     opacity: 1;
 }
 
@@ -664,10 +664,10 @@ row .col-third {
 }
 .ttl-img{
     width: 200px;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;  
 }
 .testimonial h2 {
-    color: black;
+    color: rgb(145, 72, 84);
     margin-bottom: 20px;
 }
 
@@ -684,6 +684,10 @@ row .col-third {
     font-style: italic;
     text-align: center;
     font-size: 25px;
+    margin: 25px 25px;
+    color: #757575;
+    opacity: 0.6;
+    padding: 30px 30px;
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
