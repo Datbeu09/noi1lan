@@ -2,513 +2,266 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ĐTĐ Website</title>
-    <link rel="stylesheet" href="./assets/css/externalstyles.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/responsives.css">
-    <script src="https://kit.fontawesome.com/3ebb8b4a45.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Web Design Mastery | Rayal Park</title>
 </head>
 
-<body id="mainBody">
-    <!-- Khởi tạo main -->
-    <div id="main">
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
-        <div id="header">
-            <!-- Khởi tạo các Navigation -->
-            <ul id="navi">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#ttl">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <!-- Kết thúc khởi tạo các Navigation -->
-
-            <!-- Khởi tạo thanh tìm kiếm: Search -->
-            <div class="search-button">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <!-- Khởi tạo thanh menu: Menu-Btn (only on Tablet and Mobile) -->
-            <div id="mb-menu" class="mb-menu-btn">
-                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-            </div>
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+        <div class="logo1">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
         </div>
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
-
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
-        <div id="slider">
-            <div class="text-content">
-                <h2 class="text-heading">Welcome to Dat website</h2>
-                <div class="text-box">Let's experience it!!!</div>
-            </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
         </div>
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Thông tin</a></li>
+        <li><a href="#service">Dịch vụ</a></li>
+        <li><a href="#explore">Khám phá</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+      <button class="btn nav__btn">Book Now</button>
+    </nav>
+    <div class="section__container header__container" id="home">
 
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
-        <div id="content">
-            <!-- Khởi tạo mục Lava Story -->
-            <div id="about" class="content-section">
-                <h2 class="content-label">Một chút về bản thân</h2>
-                <p class="sub-label">Hello, my name is Dat</p>
-                <p class="story-body"><br>Tôi, Đỗ Tiến Đạt, 20 tuổi, sinh ngày 16 tháng 4 năm 2004, tự hào là người con
-                    của
-                    thành phố Hà Nội, nơi mà tôi đã trải qua những năm tháng tuổi thơ và hiện đang trưởng thành. Tôi là
-                    sinh viên năm 2 tại Trường Đại học Thủ đô Hà Nội, chuyên ngành Công nghệ Thông tin. Hành trình học
-                    tập của tôi không chỉ là sự chăm chỉ, mà còn là hành trình khám phá vô số khả năng trong lĩnh vực
-                    này.</br>
-                    <br>
-                    Trong suốt thời gian học tập, tôi đã có cơ hội nắm bắt kiến thức về đồ họa ứng dụng và ngôn ngữ lập
-                    trình C, những cơ sở vững chắc giúp tôi hiểu rõ hơn về cấu trúc và logic của các chương trình. Hiện
-                    tại, tôi đang chuyển đổi sự tập trung của mình vào lĩnh vực thiết kế web, nơi tôi đang khám phá và
-                    áp dụng những kỹ thuật HTML, CSS, và JavaScript để tạo ra những trang web sáng tạo và thân thiện với
-                    người dùng.</br>
-                    <br>
-                    Ngoài việc học tập, tôi còn đam mê tham gia các dự án thực tế và thử nghiệm kiến thức của mình trong
-                    môi trường thực tế. Tôi tin rằng việc áp dụng kiến thức vào thực tế không chỉ giúp tôi nắm bắt sâu
-                    sắc hơn, mà còn phát triển kỹ năng làm việc nhóm và giải quyết vấn đề. </br>
-                </p>
-
-                <div class="row moment-list">
-                    <div class="col col-third text-center s-col-full">
-                        <p class="moment-text">It's Me</p>
-                        <img src="./assets/img/location/ava.jpg" alt="Moment" class="moment-pic">
-                    </div>
-                    <div class="skills padd-15">
-                        <div class="row">
-                            <!-- skill item-->
-                            <div class="skill-item">
-                                <h4><i class="fa-solid fa-c"></i> </h4>
-                                <div class="progress">
-                                    <div class="progress-in" style="width: 20%; background-color: rgb(0, 0, 0)"></div>
-                                    <div class="skill-percent">20%</div>
-                                </div>
-                            </div>
-                            <!-- skill item-->
-                            <div class="skill-item">
-                                <h4><i class="fa-brands fa-js"></i> Javascript</h4>
-                                <div class="progress">
-                                    <div class="progress-in" style="width: 15%; background-color: rgb(10, 10, 10)">
-                                    </div>
-                                    <div class="skill-percent">15%</div>
-                                </div>
-                            </div>
-                            <!-- skill item-->
-                            <div class="skill-item">
-                                <h4><i class="fa-brands fa-css3-alt"></i> HTML&CSS</h4>
-                                <div class="progress">
-                                    <div class="progress-in" style="width: 50%; background-color: rgb(0, 0, 0)"></div>
-                                    <div class="skill-percent">50%</div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Khởi tạo mục Services -->
-            <div id="services" class="services-box">
-                <div class="content-section">
-                    <h2 class="text-white content-label">Services</h2>
-                    <p class="text-white sub-label">"Cố gắng để hoàn thiện từng ngày"</p>
-
-                    <!-- Khởi tạo place-list -->
-                    <ul class="services-list">
-                        <li>Web Developer</li>
-                        <li>Design</li>
-                        <li>Game Developer</li>
-                    </ul>
-
-                    <!-- Khởi tạo location-list -->
-                    <div class="row location-list">
-                        <div class="col col-third s-col-full mt-16">
-                            <img src="./assets/img/location/wweb.jpg" alt="Web Developer" class="location-img">
-                            <div class="location-body">
-                                <h3 class="location-heading">Web Developer</h3>
-
-
-                                <button class="location-button s-full-width js-give-review">Give a review</button>
-                            </div>
-                        </div>
-                        <div class="col col-third s-col-full mt-16">
-                            <img src="./assets/img/location/design.jpg" alt="Design" class="location-img">
-                            <div class="location-body">
-                                <h3 class="location-heading">Design</h3>
-
-
-                                <button class="location-button s-full-width js-give-review">Give a review</button>
-                            </div>
-                        </div>
-                        <div class="col col-third s-col-full mt-16">
-                            <img src="./assets/img/location/game.jpg" alt="Game Developer" class="location-img">
-                            <div class="location-body">
-                                <h3 class="location-heading">Game Developer</h3>
-
-                                <button class="location-button s-full-width js-give-review">Give a review</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Khởi tạo mục Portfolio -->
-            <div id="portfolio" class="portfolio-backgourd">
-                <div class="content-section">
-                    <h2 class="text-black content-label">Portfolio</h2>
-                    <p class="text-black sub-label">Một chút bài tập khi học</p>
-
-                    <div class="portfolio-container content-section">
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 1:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 1/bai1.html">Bài 1</a>
-                                        <a href="./buổi 1/baitap2.html">Bài 2.1</a>
-                                        <a href="./buổi 1/2,2.html">Bài 2.2</a>
-                                        <a href="./buổi 1/2,3.html">Bài 2.3</a>
-                                        <a href="./buổi 1/3.html">Bài 3</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 2:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 2/bt1/testlab1internal.html">Bài 1</a>
-                                        <a href="./buổi 2/bài 2/Bai2.1.html">Bài 2.1</a>
-                                        <a href="./buổi 2/bài 2/Bai2.2.html">Bài 2.2</a>
-                                        <a href="./buổi 2/bài 3/B3.html">Bài 3</a>
-                                        <a href="./buổi 2/bài 4/bai4.html">Bài 4</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 3:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 3/bàilop/baitaptrenlop.html">bài lớp</a></li>
-                                        <a href="./buổi 3/bài1/bai1lab3.html">bài 1 </a></li>
-                                        <a href="./buổi 3/bài2/bail2ab3.html">bài 2</a></li>
-                                        <a href="">web</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>30%:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="30/index.html">bài 30% </a>
-                                        <a href="./30/html1.html">bài 30% làm lại </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 4:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 4/bai1/bai1.html">bài 1</a>
-                                        <a href="./buổi 4/bai1/bai3/bai3.html">bài 3 </a>
-                                        <a href="./buổi 4/bai1/bai4/bai4.htm">bài 4</a>
-                                        <a href="./buổi 4/bai1/bai5/bai5.html">bài 5</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 5:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 5/bailop/bailop.html">Bài lớp</a>
-                                        <a href="./buổi 5/bailop/bailop1/bailop1.html">Bài 1</a>
-                                        <a href="./buổi 5/bailop/bailop1/bai3lop.html">Bài 2</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 6:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 6/bài4/bai4.html">Bài 4</a>
-                                        <a href="./buổi 6/bài5/bai5.html">Bài 5</a>
-                                        <a href="./buổi 6/bài6/bai6,1.html">Bài 6.1</a>
-                                        <a href="./buổi 6/bài6/bai6,2.html">Bài 6.2</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-item">
-                            <div class=" dropdown item">
-                                <img src="./assets/img/location/test.jpg" alt="Image 1">
-                                <div class=" overlay">
-                                    <h2>Buổi 7:</h2>
-                                    <div class="dropdown-content">
-                                        <a href="./buổi 7/vd1.html">Ví du 1</a>
-                                        <a href="./buổi 7/vd2.html">Ví dụ 2</a>
-                                        <a href="./buổi 7/bai7.html">Bài 7</a>
-                                        <a href="./buổi 7/bai8.html">Bài 8</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-                <!-- Khởi tạo mục Testimonials-->
-                <div id="ttl" class="ttl-box">
-                    <div class="content-sectionn">
-                        <h2 class="text-black content-label">Testimonials</h2>
-                        <p class="text-black sub-label">"Dưới đây là ý kiến của mọi người"</p>
-                    </div>
-
-                    <div class="testimonial-container" id="testimonials">
-                        <div class="testimonial">
-                            
-                    
-                            <!-- Các phần thông tin khác -->
-
-                        </div>
-
-                        <div class="testimonial">
-                            <img class="ttl-img" src="./assets/img/location/bach.jpg" alt="">
-                            <h2>Bách Nguyễn</h2>
-                            <p>
-                                Trang web của bạn có thiết kế sáng tạo và dễ sử dụng. Nội dung rõ ràng và hấp dẫn. Tốc
-                                độ tải trang nhanh, tạo trải nghiệm tích cực. Việc bổ sung thêm hình ảnh và thông tin
-                                chi tiết về dự án sẽ làm trang web trở nên phong phú hơn. Điểm cần cải thiện là thêm
-                                phần liên hệ để tương tác tốt hơn với người dùng. Tổng thể, trang web phản ánh sự chuyên
-                                nghiệp và tiềm năng.</p>
-                        </div>
-                        <div class="testimonial">
-                            <img class="ttl-img" src="./assets/img/location/dung.jpg" alt="">
-                            <h2>Dũng Nguyễn</h2>
-                            <p>Trang web của bạn nổi bật với thiết kế sáng tạo và phối màu hài hòa. Điều hướng thông
-                                minh giúp người dùng dễ dàng tìm kiếm thông tin.Nội dung trang web rất rõ ràng và cuốn
-                                hút. Tuy nhiên, việc thêm hình ảnh và thông tin chi tiết về dự án sẽ làm trang web trở
-                                nên đa dạng hơn.</p>
-                        </div>
-                    </div>
-
-                    <!-- ---------------------------------------------------------------------------------------------------------- -->
-
-                    <!-- ---------------------------------------------------------------------------------------------------------- -->
-                    <!-- Khởi tạo mục Contact -->
-                    <div class="contact-px">
-                        <div id="contact" class="content-sectionn">
-                            <h2 class="content-labell">CONTACT</h2>
-                            <p class="sub-labell">CALL FOR ME </p>
-
-                            <div class="row box-info-area">
-                                <div class="col col-half contact-info s-col-full">
-                                    <p><i class="contact-icon fa-solid fa-location-dot"></i></i>Ha Noi, VN</p>
-                                    <p><i class="contact-icon fa-solid fa-phone"></i>Phone: <a
-                                            href="tel:+84 37 660 2009">+84 37 660
-                                            2009</a></p>
-                                    <p><i class="contact-icon fa-solid fa-envelope"></i>Email: <a
-                                            href="mailto:deaft09@gmail.com">deaftt09@gmail.com</a>
-                                    </p>
-                                </div>
-                                <div class="col col-half contact-form s-col-full">
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col col-half s-col-full">
-                                                <input type="text" name="" placeholder="Name" required id="contact-name"
-                                                    class="form-control">
-                                            </div>
-                                            <div class="col col-half s-col-full s-mt-8">
-                                                <input type="email" name="" placeholder="Mail" required
-                                                    id="contact-email" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-8">
-                                            <div class="col col-full">
-                                                <input type="text" name="" placeholder="Message" required
-                                                    id="contact-message" class="form-control">
-                                            </div>
-                                        </div>
-                                        <input class="form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footer">
-                <div class="social-list">
-                    <a href="https://www.facebook.com/datdizz/"><i class="fa-brands fa-facebook"></i></i></a>
-                    <a href="https://www.instagram.com/dat.di/"><i class="fa-brands fa-instagram"></i></i></a>
-                    <a href="https://twitter.com/datto09"><i class="fa-brands fa-twitter"></i></i></a>
-                    <a href="https://github.com/Datbeu09/noi1lan"><i class="fa-brands fa-github"></i></i></a>
-                </div>
-                <p class="copyright mt-16">Powered by<a href="https://github.com/Datbeu09">Datbeu09</a></p>
-            </div>
-            <!-- ---------------------------------------------------------------------------------------------------------- -->
-        </div>
-
-        <!-- ---------------------------------------------------------------------------------------------------------- -->
+      <h1>Welcom to Wyndham Sunrise <br /> <span>Phú Quốc</span>.</h1>
     </div>
+  </header>
 
-    <!-- Khởi tạo modal -->
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="modal-icon1 ti-close"></i>
-            </div>
-
-            <div class="modal-header">
-                <i class="modal-icon2 ti-bell"></i>
-                Review Box
-            </div>
-
-            <div class="modal-body">
-                <label for="modal-time" class="modal-label">
-                    <i class="fa-solid fa-check"></i>
-                    Do you have any comments?
-                </label>
-                <input id="modal-time" type="text" class="modal-input1" placeholder="">
-
-                <label for="text-review" class="modal-label">
-                    <i class="fa-solid fa-check"></i>
-                    Can you leave a message so I can fix it?
-                </label>
-                <textarea name="review-box" id="text-review" placeholder=""></textarea>
-
-                <button id="post">
-                    <i class="fa-solid fa-thumbs-up"> Post</i>
-                </button>
-            </div>
-
-            <div class="modal-footer">
-                <p class="modal-help">Need <a href="https://support.google.com/messages/answer/6080324?hl=vi">help?</a> </p>
-            </div>
+  <section class="section__container booking__container">
+    <form action="/" class="booking__form">
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill" style="color: #5f300f;"></i></span>
+        <div>
+          <label for="check-in">CHECK-IN</label>
+          <input type="text" placeholder="Check In" />
         </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill " style="color: #5f300f;"></i></span>
+        <div>
+          <label for="check-out">CHECK-OUT</label>
+          <input type="text" placeholder="Check Out" />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-user-fill" style="color: #5f300f;"></i></span>
+        <div>
+          <label for="guest">GUEST</label>
+          <input type="text" placeholder="Guest" />
+        </div>
+      </div>
+      <div class="input__group input__btn">
+        <button class="btn">CHECK OUT</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="assets/about.jpg" alt="about" />
     </div>
+    <div class="about__content">
+      <p class="section__subheader"> VỀ CHÚNG TÔI</p>
+      <h2 class="section__header">Thiên đường nghỉ dưỡng!</h2>
+      <p class="section__description">
+        Tọa lạc bên bờ biển Bãi Khem xinh đẹp, Wyndham Sunrise Phú Quốc
+        mang đến trải nghiệm nghỉ dưỡng đẳng cấp 5 sao, dịch vụ đa dạng phong phú
+        và đội ngũ nhân viên thân thiện, chuyên nghiệp. 
+        Nằm ở trung tâm khu phức hợp giải trí của nam Phú Quốc, vị trí của
+        Wyndham Sunrise Phu Quoc thuận tiện cho du khách có thể lặn ngắm sạn hô,
+        chèo thuyền kayak, lướt ván Sup, ngắm bình minh và tắm biển.
+      </p>
+      <div class="about__btn">
+        <button class="btn">Xem thêm</button>
+      </div>
+    </div>
+  </section>
 
-    <!-- Khởi tạo tác vụ mở/đóng menu header for Tablet and Mobile -->
-    <script>
-        var header = document.getElementById('header')
-        var mobileMenu = document.getElementById('mb-menu')
-        var headerHeight = header.clientHeight;
+  <section class="section__container room__container">
+    <p class="section__subheader">HẠNG PHÒNG</p>
+    <h2 class="section__header">Điểm đến sang trọng và hiện đại</h2>
+    <div class="room__grid">
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/p1.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Presidentinal suite</h4>
+          <p>
+            175m2 
+            - 1 giường King cỡ lớn 2m x 2m 
+            Hoặc 2 giường Twin 1m2 x 2m.
+          </p>
+          <h5>Giá <span>30.760.000đ - 35.680.000đ/đêm</span></h5>
+          <button class="btn">Đặt Ngay</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/p2.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Junior suite</h4>
+          <p>
+            85m2
 
-        // Tương tác đóng mở Menu
-        mobileMenu.onclick = function () {
-            var isClosed = header.clientHeight === headerHeight;
-            if (isClosed) {
-                header.style.height = 'auto';
-            } else {
-                header.style.height = null;
-            }
-        }
+            - 1 giường King 2m x 2m
+            hoặc 2 Twin 1m2 x 2m
+            - Sức chứa 2 khách.
+          </p>
+          <h5>Giá <span>5.810.000đ - 7.345.000đ/đêm</span></h5>
+          <button class="btn">Đặt ngay</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="assets/p3.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Family suite</h4>
+          <p>
+            100m2
 
-        // Tự động đóng khi chọn Menu xong
-        var menuItems = document.querySelectorAll('#navi li a[href*="#"]')
+             - 1 giường King cỡ lớn 2m x 2m 
+            Hoặc 2 giường Twin 1m2 x 2m.
+          </p>
+          <h5>Giá <span>7.350.000đ- 8.525.000đ/đêm</span></h5>
+          <button class="btn">Đặt ngay</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        for (var i = 0; i < menuItems.length; i++) {
-            var menuItem = menuItems[i];
+  <section class="service" id="service">
+    <div class="section__container service__container">
+      <div class="service__content">
+        <p class="section__subheader">DỊCH VỤ</p>
+        <h2 class="section__header">Tận hưởng dịch vụ tiện ích</h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-shield-star-line"></i></span>
+            An ninh tốt
+          </li>
+          <li>
+            <span><i class="ri-24-hours-line"></i></span>
+            Hồ bơi 4 mùa
+          </li>
+          <li>
+            <span><i class="ri-headphone-line"></i></span>
+            Phòng hội nghị hội thảo
+          </li>
+          <li>
+            <span><i class="ri-map-2-line"></i></span>
+            Khu vui chơi trẻ em
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-            menuItem.onclick = function (event) {
-                var menu2Level = this.nextElementSibling && this.nextElementSibling.classList.contains('subnavi');
-                if (menu2Level) {
-                    event.preventDefault();
-                } else {
-                    header.style.height = null;
-                }
-            }
-        }
-    </script>
+  <section class="section__container banner__container">
+    <div class="banner__content">
+      <div class="banner__card">
+        <h4>25+</h4>
+        <p>Properties Available</p>
+      </div>
+      <div class="banner__card">
+        <h4>350+</h4>
+        <p>Bookings Completed</p>
+      </div>
+      <div class="banner__card">
+        <h4>600+</h4>
+        <p>Happy Customers</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Khởi tạo tác vụ mở/đóng modal -->
-    <script>
-        const reviewBtns = document.querySelectorAll('.js-give-review')
-        const laterBox = document.querySelector('.js-later')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer = document.querySelector('.js-modal-container')
-        const modalClose = document.querySelector('.js-modal-close')
+  <section class="explore" id="explore">
+    <p class="section__subheader">KHÁM PHÁ</p>
+    <h2 class="section__header">Có gì mới hôm nay?</h2>
+    <div class="explore__bg">
+      <div class="explore__content">
+        <p class="section__description">20th NOV 2024</p>
+        <h4>Các chương trình ưu đãi như set ăn cao cấp và giờ vàng mua 1 tặng 1 Cocktail.​</h4>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+  </section>
 
-        function showGiveReview() {
-            modal.classList.add('open')
-        }
-        function hideGiveReview() {
-            modal.classList.remove('open')
-        }
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <p class="section__description">
+          Khám phá một thế giới thoải mái, sang trọng và phiêu lưu khi bạn khám phá các khách sạn được tuyển chọn kỹ
+          lưỡng của chúng tôi, khiến mỗi khoảnh khắc trong chuyến đi của bạn thực sự phi thường.
+        </p>
+        <button class="btn">Đặt ngay</button>
+      </div>
+      <div class="footer__col">
+        <h4>LIÊN KẾT</h4>
+        <ul class="footer__links">
+          <li><a href="#">Duyệt qua các điểm đến</a></li>
+          <li><a href="#">Ưu đãi & Gói đặc biệt</a></li>
+          <li><a href="#">Loại phòng & Tiện nghi</a></li>
+          <li><a href="#">Đánh giá và xếp hạng của khách hàng</a></li>
+          <li><a href="#">Mẹo & hướng dẫn du lịch</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>DỊCH VỤ CHÚNG TÔI</h4>
+        <ul class="footer__links">
+          <li><a href="#">Hỗ trợ hướng dẫn khách</a></li>
+          <li><a href="#">Tùy chọn đặt chỗ linh hoạt</a></li>
+          <li><a href="#">Đưa đón sân bay</a></li>
+          <li><a href="#">Sức khỏe giải trí</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+        <ul class="footer__links">
+          <li><a href="#">Wyndham Sunrise@gmail.com</a></li>
+        </ul>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/people/Wyndham-Sunrise-Ph%C3%BA-Qu%E1%BB%91c/61567821722990/"><img src="assets/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
 
-        for (const reviewBtn of reviewBtns) {
-            reviewBtn.addEventListener('click', showGiveReview)
-        }
-
-        modalClose.addEventListener('click', hideGiveReview)
-
-        modal.addEventListener('click', hideGiveReview)
-
-        modalContainer.addEventListener('click', function (event) {
-            event.stopPropagation()
-        })
-        // laterBox.addEventListener('click', function () { alert("Thank for your visit ! We will add more interesting trips in the future") })
-    </script>
-    <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            let testimonials = document.getElementsByClassName("testimonial");
-            for (let i = 0; i < testimonials.length; i++) {
-                testimonials[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > testimonials.length) {
-                slideIndex = 1;
-            }
-            testimonials[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 5000); // Đổi hình sau mỗi 3 giây
-        }
-    </script>
-    <script>
-        // Lấy phần tử HTML bạn muốn thêm xử lý sự kiện cuộn chuột (trong trường hợp này, là body)
-        var bodyElement = document.getElementById("mainBody");
-
-        // Thêm sự kiện "scroll" và gọi hàm xử lý khi cuộn chuột
-        bodyElement.addEventListener("scroll", handleScroll);
-
-        // Hàm xử lý sự kiện cuộn chuột
-        function handleScroll(event) {
-            // Thực hiện các hành động bạn muốn khi cuộn chuột
-            console.log("Đã cuộn chuột");
-            // Ví dụ: Kiểm tra vị trí cuộn và thực hiện các hành động phụ thuộc vào nó
-            console.log("Vị trí cuộn: " + bodyElement.scrollTop);
-            // Thêm mã xử lý sự kiện cuộn chuột của bạn tại đây
-        }
-
-
-    </script>
-
-
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
