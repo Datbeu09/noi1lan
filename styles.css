@@ -98,7 +98,7 @@ body {
 }
 
 .header {
-  background-image: url("/assets/wyn.png");
+  background-image: url("../assets/wyn.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
