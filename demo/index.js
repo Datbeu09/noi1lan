@@ -3,7 +3,7 @@ const locationButton = document.querySelector(".location-button");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const hourlyWeather = document.querySelector(".hourly-weather .weather-list");
 
-const API_KEY = "YOUR-API-KEY-HERE"; // API key
+const API_KEY = "5c33747727b74c1a3c7ebf75e651ba11"; // API key
 
 // Weather codes for mapping to custom icons
 const weatherCodes = {
