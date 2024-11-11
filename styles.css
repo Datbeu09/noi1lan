@@ -98,7 +98,7 @@ body {
 }
 
 .header {
-  background-image: url("./assets/wyn.png");
+  background-image: url("./assets/wyn.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,6 +178,7 @@ nav {
   line-height: 4.5rem;
   color: #fafafa;
   text-align: center;
+  margin-top: 50px;
 }
 
 .header__container h1 span {
@@ -606,4 +607,8 @@ nav {
   .room__grid {
     gap: 2rem;
   }
+}
+.about__btn1{
+  margin-top: 50px;
+  text-align: center;
 }
